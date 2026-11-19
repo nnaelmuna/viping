@@ -11,12 +11,12 @@ interface CreateEndpointInput {
 }
 
 interface UpdateEndpointInput {
-    name               : string;
-    url                : string;
-    method             : string;
-    checkIntervalSec   : number;
-    timeoutMs          : number;
-    isActive           : boolean;
+    name?               : string;
+    url?                : string;
+    method?             : string;
+    checkIntervalSec?   : number;
+    timeoutMs?          : number;
+    isActive?           : boolean;
 }
 
 
